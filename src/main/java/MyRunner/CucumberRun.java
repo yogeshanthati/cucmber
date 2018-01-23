@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 	format={"pretty","html:test-outout","json:Json-cucumber/cucumberout.json","junit:Junit-cucumber/junit.xml"},
 	dryRun=false,
 	monochrome = true
-	//strict=true
+	strict=true
 		)
 	
 
