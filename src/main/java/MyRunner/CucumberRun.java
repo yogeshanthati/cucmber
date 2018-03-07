@@ -9,7 +9,7 @@ import cucumber.api.CucumberOptions;
 	features= "D:/CuCumber/cucmber/src/main/java/FeatureCucumber",
 	glue={"StepDefinition"},
 	format={"pretty","html:test-outout","json:Json-cucumber/cucumberout.json","junit:Junit-cucumber/junit.xml"},
-	dryRun=false,
+	dryRun=true,
 	monochrome = true
 	//strict=true
 		)
@@ -17,6 +17,6 @@ import cucumber.api.CucumberOptions;
 
 public class CucumberRun {
 
-	system.out.println("chaitra commited");
+	
 		
 }

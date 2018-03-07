@@ -28,8 +28,6 @@ public class TestBase extends Constants {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}			
-		
-		
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver","./src/main/java/resources/chromedriver.exe");	
